@@ -9,6 +9,6 @@ What I've learnt before the Project:
 
 Reflections:
 
-1.
+1.Yo Yo
 
 2.
