@@ -11,28 +11,28 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
 /* Border/Background for visualizing */
 
-.intro-container{
-    color: white;
-    border: 1 px solid black;
-    display: flex;
-}
 
-.box-1,
-.box-2,
-.box-3{
-    border: 1px solid black;
-}
+
+
 
 .header,
-.intro-container{
-    background-color: rgb(27, 0, 90);
+.intro-container,
+.footer{
+    background-color: #1f2937;
 }
 
 /* Header */
 .header{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
@@ -52,6 +52,50 @@ body{
 
 /* Intro */
 
+.intro-container{
+    color: white;
+    display: flex;
+    flex: 2;
+    padding: 50px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.title{
+    font: 48px bold;
+    color: #f9faf8;
+}
+
+.subtitle{
+    font: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.intro-container button{
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+.placeholder{
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.placeholder img{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2.5px 2.5px 8px black;
+}
 /* Section 1: Some Random Information */
 
 .box-1{
@@ -59,35 +103,90 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 2;
+    flex-shrink: 0;   
+}
+
+.box-1 h1{
+    padding: 10px;
 }
 
 .pic-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.pic{
+    text-align: center;
+    
+}
+
+.pic img{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px black;
+}
+
+.pic p{
+    padding: 0 10px;
 }
 
 /* Section 2: Quote */ 
 
 .box-2{
-    background-color: rgb(255, 224, 198);
+    background-color: #e5e7eb;
+    position: relative;
     padding: 50px;
+    flex: 2;
 }
 
+.quote,
+.name{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote{
+    padding: 100px;
+}
+
+.name{
+    right: 500px;
+    position: absolute;
+}
 
 /*Section 3: Sign Up*/
 
 .box-3{
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 
 .bluebox{
+    height: auto;
+    width: 40vw;
     display: flex;
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 10px;
 }
+
+
 
 
 /*Footer*/
 
 .footer{
+    color: white;
     display: flex;
     justify-content: center;
 }
