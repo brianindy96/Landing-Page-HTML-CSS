@@ -9,6 +9,8 @@ What I've learnt before the Project:
 
 Reflections:
 
-1.Yo Yo
+1. This is my first time making a HTML/CSS without looking at other people's code. I'm proud of myself really. Used a few notes, google searches and documentations. But not at all did I look at other people's code. 
 
-2.
+2. The Responsiveness of the Website is a total disaster. Was able to rescued some from being squashed. 
+
+3. I felt like there was always gap between my CSS knowledge before. Mostly about Flexbox and the structuring of the website. I feel like it's coming together. Still a lot to practice on though. 
