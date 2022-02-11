@@ -14,3 +14,5 @@ Reflections:
 2. The Responsiveness of the Website is a total disaster. Was able to rescued some from being squashed. 
 
 3. I felt like there was always gap between my CSS knowledge before. Mostly about Flexbox and the structuring of the website. I feel like it's coming together. Still a lot to practice on though. 
+
+4. Because this is a big project, I tried to make my code structured and easy to work with as possible. Adding Comments to each section I was working on, e.g headers, footers, contents(box-1,box-2,box-3,..). It worked well! 
