@@ -19,11 +19,7 @@ body{
 }
 
 
-/* Border/Background for visualizing */
-
-
-
-
+/* Background for Header, Intro, Footer */
 
 .header,
 .intro-container,
@@ -65,6 +61,7 @@ body{
     justify-content: center;
     align-items: center;
     flex: 1;
+    padding: 0px 100px;
 }
 .title{
     font: 48px bold;
@@ -170,18 +167,46 @@ body{
 }
 
 .bluebox{
+    color: white;
     height: auto;
     width: 40vw;
     display: flex;
     background-color: lightblue;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
     padding: 10px;
 }
 
+.bluebox1{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
 
+.bluebox2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.bluebox,
+.bluebox2 button{
+    background-color: #3882f6;
+}
+
+.bluebox2 button{
+    font-size: 1em;
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    border-radius: 3px;
+    width: 150px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
 
 /*Footer*/
 
