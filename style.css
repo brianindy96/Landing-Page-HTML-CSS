@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Border/Background for visualizing */
+
+.intro-container{
+    color: white;
+    border: 1 px solid black;
+    display: flex;
+}
+
+.box-1,
+.box-2,
+.box-3{
+    border: 1px solid black;
+}
+
+.header,
+.intro-container{
+    background-color: rgb(27, 0, 90);
+}
+
+/* Header */
+.header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.header .logo{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.header a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Intro */
+
+/* Section 1: Some Random Information */
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-container{
+    display: flex;
+}
+
+/* Section 2: Quote */ 
+
+.box-2{
+    background-color: rgb(255, 224, 198);
+    padding: 50px;
+}
+
+
+/*Section 3: Sign Up*/
+
+.box-3{
+    display: flex;
+    justify-content: center;
+}
+
+.bluebox{
+    display: flex;
+}
+
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
